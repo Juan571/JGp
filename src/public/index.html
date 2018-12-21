@@ -10,14 +10,14 @@
 
     <title>Jorge Galvez</title>
 
-
+    <!-- Bootstrap core CSS -->
 
   </head>
 
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" style="background-color:#334f5b !important">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
       <div class="container">
         <a class="navbar-brand" href="#"><img class="card-img-top" src="assets/jg.png" alt="" style="height: 50px;width: 80%;margin-left: 30%;"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -49,30 +49,62 @@
     <!-- Page Content -->
     <div class="container">
 
+      <div id="demo" class="carousel slide" data-ride="carousel">
 
+        <!-- Indicators -->
+        <ul class="carousel-indicators">
+          <li data-target="#demo" data-slide-to="0" class="active"></li>
+          <li data-target="#demo" data-slide-to="1"></li>
+          <li data-target="#demo" data-slide-to="2"></li>
+        </ul>
+
+        <!-- The slideshow -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="assets/carousel.png" alt="Los Angeles">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/carousel.png" alt="Chicago">
+          </div>
+          <div class="carousel-item">
+            <img src="assets/carousel.png" alt="New York">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+          <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+          <span class="carousel-control-next-icon"></span>
+        </a>
+
+      </div>
       <div class="row">
         <div class="col-sm-12 my-12" style="text-align: center;margin-top: 30px;">
-          <h3 id='juan'> Entradas más recientes </h3>
+          <h3> Entradas más recientes </h3>
           <hr style="width:75%;">
         <div>
       </div>
       <div class="row">
 
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+        <div class="entradas col-sm-4 my-4">
+          <div class="entry-card card card">
+            <img class="card-img-top" src="assets/entry1.png" alt="">
             <div class="card-body">
-              <h4 class="card-title">Card title</h4>
+              <p class="card-tag"> SISTEMAS / UN ESTILO DE VIDA</p>
+              <p class="card-date"> Junio 22, 2018</p>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus.</p>
+
             </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Find Out More!</a>
+            <div class="cardfooter col-sm-12">
+              <a href="#" class="">LEER MAS</a>
             </div>
           </div>
         </div>
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+        <div class="entradas col-sm-4 my-4">
+          <div class="entry-card card">
+            <img class="card-img-top" src="assets/entry2.png" alt="">
             <div class="card-body">
               <h4 class="card-title">Card title</h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque sequi doloribus totam ut praesentium aut.</p>
@@ -82,9 +114,45 @@
             </div>
           </div>
         </div>
-        <div class="col-sm-4 my-4">
-          <div class="card">
-            <img class="card-img-top" src="http://placehold.it/300x200" alt="">
+        <div class="entradas col-sm-4 my-4">
+          <div class="entry-card card card">
+            <img class="card-img-top" src="assets/entry1.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+        <div class="entradas col-sm-4 my-4">
+          <div class="entry-card card card">
+            <img class="card-img-top" src="assets/entry1.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+        <div class="entradas col-sm-4 my-4">
+          <div class="entry-card card card">
+            <img class="card-img-top" src="assets/entry2.png" alt="">
+            <div class="card-body">
+              <h4 class="card-title">Card title</h4>
+              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
+            </div>
+            <div class="card-footer">
+              <a href="#" class="btn btn-primary">Find Out More!</a>
+            </div>
+          </div>
+        </div>
+        <div class="entradas col-sm-4 my-4">
+          <div class="entry-card card card">
+            <img class="card-img-top" src="assets/entry1.png" alt="">
             <div class="card-body">
               <h4 class="card-title">Card title</h4>
               <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
@@ -108,7 +176,6 @@
       </div>
       <!-- /.container -->
     </footer>
-
 
 
   </body>

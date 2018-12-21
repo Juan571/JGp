@@ -1,4 +1,35 @@
-$primary-color: red;
-body {
-    color: $primary-color;
+@import "~bootstrap/scss/bootstrap";
+$primary-color: #24b1a1;
+$secundary-color: #3f505c;
+// .entradas{
+//   padding: 4%;
+// }
+
+.navbar .navbar-expand:{
+  // background-color:$secundary-color !important;
+}
+
+.card-date{
+  font-size: smaller;
+  color: gray;
+}
+.card-tag{
+  // margin-bottom: 0px;
+  color: $primary-color
+}
+.card-title  {
+  color: #344a55;
+  font-weight: bold;
+}
+ .entry-card {
+    margin-right: 2%;
+    margin-left: 2%;
+ }
+ .card-body {
+     text-align: left;
+     flex: 1 1 auto;
+     padding: 1.25rem;
+  }
+.cardfooter{
+  text-align: right;
 }

@@ -1,10 +1,10 @@
 
-@import "~bootstrap/dist/css/bootstrap.css";
-/* All of the other imports comes after the bootstrap so we can overwrite it ! */
 
-@import "common/font.scss";
-@import "common/color.scss";
-@import "common/grid.scss";
+import 'jquery'
+import 'bootstrap';
+
+
+/* All of the other imports comes after the bootstrap so we can overwrite it ! */
 
 import '../style/app.scss';
 
