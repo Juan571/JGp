@@ -1,23 +1,38 @@
 @import "~bootstrap/scss/bootstrap";
 $primary-color: #24b1a1;
 $secundary-color: #3f505c;
+
 // .entradas{
 //   padding: 4%;
 // }
 
-.navbar .navbar-expand:{
-  // background-color:$secundary-color !important;
+// .navbar .navbar-expand:{
+//   // background-color:$secundary-color !important;
+// }
+.card-more{
+  margin-bottom: 50px;
+  color: $primary-color;
+  font-size: smaller;
+  font-weight: bold;
 }
-
+.card p{
+    margin-bottom: 0px;
+}
+.card-text {
+  margin-top: 10px;
+  color: $secundary-color;
+}
 .card-date{
   font-size: smaller;
-  color: gray;
+  color: $secundary-color;
 }
 .card-tag{
-  // margin-bottom: 0px;
+  font-size: smaller;
   color: $primary-color
 }
 .card-title  {
+  margin-bottom: 0px;
+  font-size: x-large;
   color: #344a55;
   font-weight: bold;
 }
