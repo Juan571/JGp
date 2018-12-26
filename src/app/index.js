@@ -7,6 +7,7 @@ import 'bootstrap';
 /* All of the other imports comes after the bootstrap so we can overwrite it ! */
 
 import '../style/app.scss';
+import '../style/socialicons.scss';
 
 class TestClass {
     constructor() {

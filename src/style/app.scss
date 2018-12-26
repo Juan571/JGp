@@ -2,6 +2,14 @@
 $primary-color: #24b1a1;
 $secundary-color: #3f505c;
 
+.hrseparator {
+    width: 50px;
+    background-color: $primary-color;
+    height: 1px;
+}
+.htittles {
+  color: $secundary-color;
+}
 // .entradas{
 //   padding: 4%;
 // }
