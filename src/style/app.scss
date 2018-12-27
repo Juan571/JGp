@@ -2,12 +2,30 @@
 $primary-color: #24b1a1;
 $secundary-color: #3f505c;
 
+#subscribe{
+  height: 180px;
+  background-color: #334e5b;
+}
+@font-face {
+  font-family: futureEarth;
+  src: url('/src/style/Future-Earth.ttf');
+}
+.aboutimg {
+  width: 90%;
+}
+.card-img-top {
+  width: 100%;
+}
+.lead {
+  font-size: initial;
+}
 .hrseparator {
     width: 50px;
     background-color: $primary-color;
     height: 1px;
 }
 .htittles {
+  font-family: 'Roboto', sans-serif;
   color: $secundary-color;
 }
 // .entradas{

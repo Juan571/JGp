@@ -1,10 +1,61 @@
-
+@import "app.scss";
 
 /*=========================
   Icons
  ================= */
 
 /* footer social icons */
+
+ul.counters {
+	list-style: none;
+	display: inline;
+	margin-left:0 !important;
+	padding: 0;
+}
+ul.counters li {
+	display: inline;
+	margin: 0 5px;
+}
+
+.counters a.icoInstagram {
+  border-style: solid;
+	border-color: $primary-color;
+	background-color: transparent;
+}
+.counter-circle li a {
+	display:inline-block;
+	position:relative;
+	margin:0 auto 0 auto;
+	-moz-border-radius:50%;
+	-webkit-border-radius:50%;
+	border-radius:50%;
+	text-align:center;
+	width: 230px;
+	height: 230px;
+	font-size:100px;
+}
+p.circle-count{
+	margin: 0px auto;
+	margin-top: 22%;
+	font-size: 80px;
+	color: $primary-color;
+}
+p.title-count{
+	font-family: 'Roboto', sans-serif;
+	line-height: 0px;
+	color: $secundary-color;
+	font-size: 16px;
+}
+
+.counters a.circleCount {
+	margin: 2%;
+	border-width: 2px;
+  border-style: solid;
+	border-color: $primary-color;
+	background-color: transparent;
+}
+
+
 ul.social-network {
 	list-style: none;
 	display: inline;
@@ -18,28 +69,37 @@ ul.social-network li {
 
 
 /* footer social icons */
-.social-network a.icoRss:hover {
-	background-color: #F56505;
+.social-network a.icoInstagram {
+  border-style: solid;
+	border-color: $primary-color;
+	background-color: transparent;
 }
-.social-network a.icoFacebook:hover {
-	background-color:#3B5998;
+.social-network a.icoFacebook {
+	border-style: solid;
+	border-color: $primary-color;
+	background-color:transparent;
 }
-.social-network a.icoTwitter:hover {
-	background-color:#33ccff;
+.social-network a.icoTwitter {
+	border-style: solid;
+	border-color: $primary-color;
+	background-color:transparent;
 }
-.social-network a.icoGoogle:hover {
-	background-color:#BD3518;
+.social-network a.icoGoogle {
+	border-style: solid;
+	border-color: $primary-color;
+	background-color:transparent;
 }
-.social-network a.icoVimeo:hover {
-	background-color:#0590B8;
+.social-network a.icoVimeo {
+	border-style: solid;
+	border-color: $primary-color;
+	background-color:transparent;
 }
-.social-network a.icoLinkedin:hover {
-	background-color:#007bb7;
+.social-network a.icoLinkedin {
+	border-style: solid;
+	border-color: $primary-color;
+	background-color:transparent;
 }
-.social-network a.icoRss:hover i, .social-network a.icoFacebook:hover i, .social-network a.icoTwitter:hover i,
-.social-network a.icoGoogle:hover i, .social-network a.icoVimeo:hover i, .social-network a.icoLinkedin:hover i {
-	color:#fff;
-}
+
 a.socialIcon:hover, .socialHoverClass {
 	color:#44BCDD;
 }
@@ -81,7 +141,6 @@ a.socialIcon:hover, .socialHoverClass {
 	-ms-transition: all 0.8s;
 	transition: all 0.8s;
 }
-
-a {
- background-color: #D3D3D3;
+.social-network .fa {
+	color: $primary-color;
 }
